@@ -1,0 +1,22 @@
+﻿/* Place Your Custom Styles Here */
+
+.hero-image {
+    width: 100%;
+    text-align: center;
+}
+.hero-image img{
+    width: 100%;
+    object-fit: cover;
+    text-align: center;
+}
+.navbar-nav .nav-item .nav-link {
+    position: relative;
+}
+/* .navbar-nav .nav-item .nav-link::before {
+    width: 100%;
+    height: 100%;
+    /* background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
