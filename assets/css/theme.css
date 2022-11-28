@@ -4002,6 +4002,7 @@ input[type=button].btn-block {
 .nav-link {
   font-size: 1.25rem;
   display: block;
+  color: white;
   padding: 0.5rem 1rem;
 }
 .nav-link:hover, .nav-link:focus {
