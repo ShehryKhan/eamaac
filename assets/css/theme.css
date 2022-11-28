@@ -4084,6 +4084,7 @@ input[type=button].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  z-index: -9999;
   padding: 0.5rem 1rem;
 }
 .navbar .container,
@@ -20001,7 +20002,7 @@ body:not(.layout-mobile).ln-fullpage-intro-active .ln-copyright {
   line-height: 1;
   color: #fff;
   transition: bottom 0.7s cubic-bezier(0.54, 0.18, 0.36, 0.81), color 0.7s cubic-bezier(0.54, 0.18, 0.36, 0.81);
-  z-index: 100;
+  z-index: 1000000;
   border-right: 1px solid #fff;
 }
 .ln-social-icons .social {
