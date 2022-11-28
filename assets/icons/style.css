@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?imug1d');
-  src:  url('fonts/icomoon.eot?imug1d#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?imug1d') format('truetype'),
-    url('fonts/icomoon.woff?imug1d') format('woff'),
-    url('fonts/icomoon.svg?imug1d#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?kk51s5');
+  src:  url('fonts/icomoon.eot?kk51s5#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?kk51s5') format('truetype'),
+    url('fonts/icomoon.woff?kk51s5') format('woff'),
+    url('fonts/icomoon.svg?kk51s5#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,21 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-files-empty:before {
-  content: "\e925";
+.icon-logo:before {
+  content: "\e902";
 }
-.icon-stack:before {
-  content: "\e92e";
+.icon-menu-bars:before {
+  content: "\e901";
 }
-.icon-barcode:before {
-  content: "\e937";
+.icon-twitter:before {
+  content: "\e900";
 }
-.icon-coin-dollar:before {
-  content: "\e93b";
+.icon-facebook2:before {
+  content: "\ea91";
 }
-.icon-stats-bars:before {
-  content: "\e99c";
-}
-.icon-tree:before {
-  content: "\e9bc";
+.icon-instagram:before {
+  content: "\ea92";
 }

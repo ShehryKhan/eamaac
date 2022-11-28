@@ -17423,9 +17423,11 @@ section {
   height: 100vh;
   background: url(../video/e-comapex.jpg);
   background-position: center;
-  background-attachment: fixed;
   position: relative;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .copyright {
   user-select: none;
@@ -17446,9 +17448,9 @@ section {
   background-color: transparent;
   font-size: 1.5rem;
   padding: .5rem 2rem;
-  margin: 0 auto;
   color: white;
   transition: .3s linear;
+  border-radius: 5px;
 }
 .mission button:hover {
   background-color: white;
@@ -20037,7 +20039,7 @@ body:not(.layout-mobile).ln-fullpage-intro-active .ln-copyright {
 }
 .ln-social-icons .sidebar-head {
   width: 50px;
-  margin: 5rem 0;
+  margin: 3rem .3rem;
 }
 .ln-social-icons ul:hover a {
   opacity: 0.54;
