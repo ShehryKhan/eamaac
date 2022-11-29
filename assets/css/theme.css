@@ -20038,8 +20038,8 @@ body:not(.layout-mobile).ln-fullpage-intro-active .ln-copyright {
   color: inherit;
 }
 .ln-social-icons .sidebar-head {
-  width: 50px;
-  margin: 3rem .3rem;
+  margin: 5rem .3rem;
+  font-size: 5rem;
 }
 .ln-social-icons ul:hover a {
   opacity: 0.54;
