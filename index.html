@@ -56,7 +56,8 @@
 
       <!-- Collapse -->
       <div class="collapse navbar-collapse" id="navbarCollapse">
-
+        <div id="google_translate_element"></div>   
+        
         <!-- Navigation -->
         <ul class="navbar-nav ml-auto" id="navigation">
           <li class="nav-item active" data-menuanchor="home">
@@ -79,7 +80,7 @@
             <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
-
+        
         <!-- Button -->
         <!-- <button type="button" class="btn btn-soft-white d-block d-lg-none d-xl-inline-block mb-3 mb-lg-0 ml-lg-3 w-100 w-lg-auto" data-toggle="modal" data-target="#documentationModal" data-on-navbar-light="btn-soft-secondary" data-on-navbar-dark="btn-soft-white">Documentation</button>
 
@@ -591,6 +592,8 @@
 
     <!-- Libs JS -->
     <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src= "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
     <script src="assets/vendor/popper.js/dist/popper.min.js"></script>
     <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="assets/vendor/fullPage.js/dist/scrolloverflow.min.js"></script>
@@ -607,6 +610,16 @@
 
     <!-- Theme JS -->
     <script src="assets/js/main.js"></script>
+
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+          new google.translate.TranslateElement(
+              {pageLanguage: 'en'},
+              'google_translate_element'
+          );
+      }
+  </script>
 
   </body>
 </html>
