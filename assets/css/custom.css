@@ -47,6 +47,10 @@
 .goog-te-gadget{
     color: transparent !important;
 }
+.goog-te-banner-frame {
+    display: none;
+    background-color: transparent;
+}
 
 
 

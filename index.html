@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assets/vendor/magnific-popup/dist/magnific-popup.min.css" type="text/css">
     <link rel="stylesheet" href="assets/vendor/animate.css/animate.min.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/vendor/font-awesome/css/all.min.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/stylesheet.css">
     <link rel="stylesheet" href="assets/vendor/themify-icons/css/themify-icons.css" type="text/css">
@@ -241,7 +242,9 @@
 
           <div class="row">
             <div class="col-12 col-xl-12">
-              <a href="#"><button style="font-family: Montserrat, Helvetica, sans-serif;">Learn More</button></a>
+              <a href="#" data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="2000"><button style="font-family: Montserrat, Helvetica, sans-serif;">Learn More</button></a>
               <!-- <h2 class="mb-4 animated" data-animation="fadeInUp" data-animation-delay="150">Our Mission</h2>
               <p class="animated" data-animation="fadeInUp" data-animation-delay="150">Mauris ut sem elementum, tristique velit sed, volutpat mauris. Ut interdum nibh sit amet imperdiet condimentum. Nulla sed tellus placerat, vehicula risus ac, sollicitudin quam. Quisque pharetra porta libero, a sagittis nisl tristique non. Etiam sapien purus, cursus eu pulvinar et, tempor sit amet ipsum. Sed a nisl sit amet lorem dictum hendrerit.</p> -->
             </div>
@@ -601,6 +604,7 @@
     <script src="assets/vendor/waypoints/lib/jquery.waypoints.min.js"></script>
     <script src="assets/vendor/jquery-smooth-scroll/jquery.smooth-scroll.min.js"></script>
     <script src="assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/vendor/jquery-form/dist/jquery.form.min.js"></script>
     <script src="assets/vendor/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
     <script src="assets/vendor/jQuery.countdown/dist/jquery.countdown.min.js"></script>
@@ -610,6 +614,10 @@
 
     <!-- Theme JS -->
     <script src="assets/js/main.js"></script>
+    
+    <script>
+      AOS.init();
+    </script>
 
 
     <script type="text/javascript">
